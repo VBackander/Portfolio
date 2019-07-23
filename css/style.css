@@ -1,0 +1,80 @@
+@media screen and (prefers-reduced-motion: reduce) {
+	* {
+		scroll-behavior: auto;
+	}
+}
+
+* {
+	scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-attachment:fixed;
+    font-family: 'Roboto Mono', monospace;
+    color:white;
+    margin:0 auto;
+    background-blend-mode:overlay;
+}
+
+.title {
+    margin:0 auto;
+    text-align: center;
+    font-size: 600%;
+    margin-top: 100px;
+    width:600px;
+}
+
+.description {
+    font-size:180%;
+    text-align: center;
+}
+
+.read-more {
+    text-align: center;
+    cursor: pointer;
+}
+
+.section {
+    text-align: center;
+    margin-top: 700px;
+    margin-bottom: 50px;
+    color:white;
+}
+
+.header {
+    font-size:300%;
+}
+
+.spacer {
+    padding-top: 30px;
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.grid-item {
+    margin:10px;
+    max-width: 23vw;
+    background:#54605C;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
