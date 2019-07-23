@@ -55,13 +55,14 @@ body {
 .grid {
     display: grid;
     justify-content: center;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 200px 200px;
+    grid-gap: 200px;
+    color:#54605C;
 }
 
 .grid-item {
-    margin:10px;
-    max-width: 23vw;
-    background:#54605C;
+    width: 300px;
+    background:white;
     text-align: center;
 }
 
